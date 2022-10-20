@@ -6,45 +6,45 @@
 
 body,
 html {
+    max-width: 100%;
     font-family: "Open Sans Condensed";
 }
 
 .header {
     background: url('../img/landscapes/landscape1.jpg') center;
+    background-size: cover;
+    background-position: top center;
     width: 100vw;
-    height: 720px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+}
 
-    position: relative;
-    overflow: hidden;
+a {
+    text-decoration: none;
 }
 
 nav {
     list-style-type: none;
 }
 
-/* A remettre en float right */
 .nav-header {
-    width: 800px;
-    height: 30;
-    position: absolute;
-    font-size: 20px;
-    font-weight: 600;
-
-    margin-top: 20px;
-    margin-left: 550px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 250px;
+    gap: 150px;
 }
 
 .nav-header a {
-    margin: 0px 30px;
     text-decoration: none;
     color: white;
 }
 
-.icon-header {
-    float: right;
-    margin-top: 540px;
-    margin-right: 50px;
-}
+
 
 .icon-header a {
     margin: 0 20px;
@@ -53,49 +53,57 @@ nav {
 }
 
 .content-header {
-    position: absolute;
-    width: 900px;
-    height: 250px;
-    margin-top: 150px;
-    margin-left: 80px;
+    width: 100%;
+    height: 350px;
+    margin-top: 300px;
+    margin-left: 150px;
+
 }
 
 .content-header h1 {
     color: whitesmoke;
     font-weight: 900;
-    font-size: 60px;
-    line-height: 1;
+    font-size: 80px;
+    line-height: 1.2;
 }
 
 hr {
     width: 140px;
     color: #3D858E;
-    margin-top: 20px;
-    margin-bottom: 25px;
 }
 
 .photographe {
     color: whitesmoke;
     font-weight: 900;
     font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 
 .text-photographe {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .discover {
     background-color: #3D858E;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
     margin-top: 50px;
+}
+
+.discover a {
+    color: white;
+}
+
+.icon-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    padding: 0 100px;
 }
