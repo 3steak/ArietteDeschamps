@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 body,
 html {
     font-family: "Open Sans Condensed";
@@ -23,7 +22,7 @@ nav {
     list-style-type: none;
 }
 
-
+/* A remettre en float right */
 .nav-header {
     width: 800px;
     height: 30;
