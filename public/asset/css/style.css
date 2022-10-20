@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body,
+html {
+    font-family: "Open Sans Condensed";
+}
+
+.header {
+    background: url('../img/landscapes/landscape1.jpg') center;
+    width: 100vw;
+    height: 720px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    list-style-type: none;
+}
+
+
+.nav-header {
+    width: 800px;
+    height: 30;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+.nav-header a {
+    margin: 0px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.icon-header {
+    float: right;
+    margin-top: 540px;
+    margin-right: 50px;
+}
+
+.icon-header a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.content-header {
+    position: absolute;
+    width: 900px;
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.content-header h1 {
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1;
+}
+
+hr {
+    width: 140px;
+    color: #3D858E;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.photographe {
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-photographe {
+    color: white;
+    font-size: 20px;
+}
+
+.discover {
+    background-color: #3D858E;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 50px;
+}
